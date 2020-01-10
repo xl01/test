@@ -20,3 +20,7 @@ git push -u origin master
 error: failed to push some refs to 'https://github.com/xl01/test.git'
 git push -f -u origin master //即利用强覆盖方式用你本地的代码替代git仓库内的内容
 git clone https://github.com/xl01/test.git //远程仓库的东西拿到本地
+git checkout -b dev //创建并切换分支 相当于 git branch dev  git checkout dev
+git branch //查看分支
+git checkout master //切换到master分支
+git merge dev //可以把dev分支上的内容合并到分支master上
