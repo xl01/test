@@ -2,3 +2,6 @@ git学习笔记
 git config --global user.email "liuyuwen@starmerx.com" //设置唯一标示
 git config --global user.name "liuyuwen" //设置用户名
 git init //把一个目录变成git可以管理的仓库
+git add --all //把所有文件都添加到暂存区
+git commit -m '第一次修改' //把修改提交到仓库
+git status //显示当前状态
