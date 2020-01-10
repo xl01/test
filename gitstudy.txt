@@ -8,3 +8,7 @@ git status //文件已被修改，但是未被提交的修改
 git diff readme.txt //查看违背提交的修改 与原内容比较
 git log //查看一下历史提交记录
 git log –pretty=oneline //查看一下历史提交记录（简略信息）
+git reset --hard HEAD~1 //版本回退一步
+git reflog //获得版本号
+git reset --hard 6fcfc89 //通过版本号恢复
+git checkout -- readme.txt //未提交到版本库，放弃暂存区的修改内容
