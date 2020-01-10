@@ -7,3 +7,4 @@ git commit -m '第一次修改' //把修改提交到仓库
 git status //文件已被修改，但是未被提交的修改
 git diff readme.txt //查看违背提交的修改 与原内容比较
 git log //查看一下历史提交记录
+git log –pretty=oneline //查看一下历史提交记录（简略信息）
