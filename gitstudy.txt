@@ -12,3 +12,10 @@ git reset --hard HEAD~1 //版本回退一步
 git reflog //获得版本号
 git reset --hard 6fcfc89 //通过版本号恢复
 git checkout -- readme.txt //未提交到版本库，放弃暂存区的修改内容
+注意：命令git checkout -- readme.txt 中的 -- 很重要，如果没有 -- 的话，那么命令变成创建分支了。
+git remote add origin https://github.com/xl01/test.git
+git push -u origin master  
+如果有文件会提示错误
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/xl01/test.git'
+git push -f -u origin master //即利用强覆盖方式用你本地的代码替代git仓库内的内容
