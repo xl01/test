@@ -1,0 +1,3 @@
+git学习笔记
+git config --global user.email "liuyuwen@starmerx.com" //设置唯一标示
+git config --global user.name "liuyuwen" //设置用户名
